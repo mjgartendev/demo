@@ -7,14 +7,14 @@
   "topics": [
     { "id": 1, "title": "javascript" },
     { "id": 2, "title": "css" },
-    { "id": 3, "title": "data" },
+    { "id": 3, "title": "data" }
   ],
   "snippets": [
     { "id": 1, "body": "some random data", "topicId": 3 },
     { "id": 2, "body": "a real nice class declaration", "topicId": 2 }
   ],
   "projects": [
-    {"id": 1, "title": ""}
+    { "id": 1, "title": "json-server explorer" }
   ],
   "profile": {
     "first": "Michael", "last": "Garten", "ghUsername": "mjgartendev", "linkedinUsername": "mjgarten"
