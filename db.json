@@ -4,11 +4,19 @@
     { "id": 2, "title": "Post 2" },
     { "id": 3, "title": "Post 3" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "topics": [
+    { "id": 1, "title": "javascript" },
+    { "id": 2, "title": "css" },
+    { "id": 3, "title": "data" },
+  ],
+  "snippets": [
+    { "id": 1, "body": "{ model: 'person', fields: ['first', 'last', 'ghUsername']}", "topicId": 3 },
+    { "id": 2, "body": "{.shadow{\nbox-shadow: 0 2px 4px 0 rgb(0,0,0,0.2)}}", "topicId": 2 }
+  ],
+  "projects": [
+    {"id": 1, "title": ""}
   ],
   "profile": {
-    "name": "typicode"
+    "first": "Michael", "last": "Garten", "ghUsername": "mjgartendev", "linkedinUsername": "mjgarten"
   }
 }
